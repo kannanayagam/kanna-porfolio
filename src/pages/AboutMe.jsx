@@ -98,7 +98,7 @@ const AboutMe = () => {
                                 Explore Projects
                             </button>
                             <a
-                                href="https://www.linkedin.com/in/kannanayagam-61414b170"
+                                href="https://www.linkedin.com/in/kanna-nayagam-61414b170/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="retro-button flex items-center gap-2"
