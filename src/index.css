@@ -5,12 +5,12 @@
 /* Global Styles */
 
 :root {
-  --primary-accent: #00FFFF;
-  --secondary-accent: #00FF88;
-  --deep-space: #000000;
-  --deep-space-light: #0a1628;
-  --glass-bg: rgba(17, 25, 40, 0.75);
-  --glass-border: rgba(255, 255, 255, 0.08);
+  --primary-accent: #FF7A00;
+  --secondary-accent: #FF5500;
+  --deep-space: #0d0804;
+  --deep-space-light: #1a0f06;
+  --glass-bg: rgba(20, 10, 2, 0.75);
+  --glass-border: rgba(255, 122, 0, 0.15);
 }
 
 * {
@@ -76,7 +76,7 @@ h3 {
 /* Accent text styling - use sparingly */
 .text-glow {
   color: var(--primary-accent);
-  text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  text-shadow: 0 0 10px rgba(255, 122, 0, 0.4);
 }
 
 /* Scrollbar */
@@ -102,7 +102,7 @@ h3 {
 /* Selection */
 
 ::selection {
-  background: rgba(0, 255, 255, 0.3);
+  background: rgba(255, 122, 0, 0.3);
   color: #ffffff;
 }
 

@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'deep-space': '#000000',
-        'deep-space-light': '#111111',
-        'cyber-cyan': '#FFFFFF', // Replaced cyan with white for main accents
-        'cyber-green': '#A0A0A0', // Replaced green with gray/silver
-        'glass-dark': 'rgba(0, 0, 0, 0.7)', // Neutral black glass
-        'glass-border': 'rgba(255, 255, 255, 0.1)', // White border
+        'deep-space': '#0d0804',
+        'deep-space-light': '#1a0f06',
+        'cyber-cyan': '#FF7A00', // Orange accent
+        'cyber-green': '#FF5500', // Deep orange
+        'glass-dark': 'rgba(20, 10, 2, 0.75)', // Dark orange-tinted glass
+        'glass-border': 'rgba(255, 122, 0, 0.2)', // Orange border
       },
       fontFamily: {
         'mono': ['Fira Code', 'Source Code Pro', 'Consolas', 'monospace'],
@@ -21,10 +21,10 @@ export default {
         'glass': '10px',
       },
       boxShadow: {
-        'glow': '0 0 15px rgba(255, 255, 255, 0.1)',
-        'glow-sm': '0 0 8px rgba(255, 255, 255, 0.05)',
-        'glow-lg': '0 0 25px rgba(255, 255, 255, 0.15)',
-        'inner-glow': 'inset 0 0 20px rgba(255, 255, 255, 0.05)',
+        'glow': '0 0 15px rgba(255, 122, 0, 0.3)',
+        'glow-sm': '0 0 8px rgba(255, 122, 0, 0.15)',
+        'glow-lg': '0 0 25px rgba(255, 122, 0, 0.4)',
+        'inner-glow': 'inset 0 0 20px rgba(255, 122, 0, 0.1)',
       },
       animation: {
         'marquee': 'marquee 30s linear infinite',
@@ -37,8 +37,8 @@ export default {
           '100%': { transform: 'translateX(-50%)' },
         },
         'pulse-glow': {
-          '0%, 100%': { boxShadow: '0 0 15px rgba(0, 255, 255, 0.3)' },
-          '50%': { boxShadow: '0 0 25px rgba(0, 255, 255, 0.5)' },
+          '0%, 100%': { boxShadow: '0 0 15px rgba(255, 122, 0, 0.3)' },
+          '50%': { boxShadow: '0 0 25px rgba(255, 122, 0, 0.5)' },
         },
         flicker: {
           '0%, 100%': { opacity: '1' },
