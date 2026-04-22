@@ -87,7 +87,6 @@ const Career = () => {
             location: 'Singapore',
             description: 'Pursuing BSc in Information and Communication Technology with focus on software development, data science, and AI applications.',
             highlights: [
-                'Director Roll of Honor recipient.',
                 'Active participation in Global Impact startup program.',
                 'Coursework in software engineering, AI, and ICT systems.',
             ],
