@@ -47,7 +47,7 @@ const AboutMe = () => {
                                 Dedicated ICT professional pursuing a <span className="text-white">BSc at Singapore University of Social Sciences (SUSS)</span>.
                                 My experience spans IT operations in semiconductor manufacturing at <span className="text-white">GlobalFoundries</span>,
                                 where I contributed to automation initiatives and AI/ML data preparation.
-                                As leader of <span className="text-white">Octgen</span>, I explore innovative AI use cases for B2B users.
+                                As my side project, I started <span className="text-white">Octgen</span>, where I explore innovative AI use cases for B2B users.
                             </p>
                         </div>
 
