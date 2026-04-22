@@ -104,7 +104,7 @@ setTimeout(typeEffect, 800);
 // ─────────────────────────────────────────
 const revealObserver = new IntersectionObserver(
   (entries) => {
-    entries.forEach((entry, i) => {
+    entries.forEach((entry) => {
       if (entry.isIntersecting) {
         // Stagger delay based on position within siblings
         const siblings = Array.from(entry.target.parentElement.querySelectorAll('.reveal'));
