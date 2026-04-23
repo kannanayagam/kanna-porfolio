@@ -20,16 +20,6 @@ export const projects = [
         emoji: '👁️',
     },
     {
-        id: 3,
-        title: 'Octgen AI B2B Products',
-        description: 'As leader of Octgen, explored and experimented with AI product use cases for B2B users. Built and audited automation tools and vibe-coded projects to scale operational efficiency.',
-        tags: ['AI', 'Automation', 'B2B', 'Python', 'Product'],
-        github: null,
-        link: null,
-        featured: true,
-        emoji: '🤖',
-    },
-    {
         id: 4,
         title: 'SUSS Global Impact Startup',
         description: 'Participated as an apprentice in SUSS Global Impact startup program, representing Singapore at a program held in Mumbai, India. Focused on driving social impact through technology and entrepreneurship.',
