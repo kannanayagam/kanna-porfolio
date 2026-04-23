@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAws } from '@fortawesome/free-brands-svg-icons';
 
 const Career = () => {
     const [activeMainTab, setActiveMainTab] = useState('experience');
@@ -109,7 +111,14 @@ const Career = () => {
     ];
 
     const certifications = [
-        { name: 'IBM Data Science Professional Certificate', icon: '🧠' },
+        {
+            name: 'Amazon Web Services Cloud Practitioner',
+            icon: <FontAwesomeIcon icon={faAws} className="text-cyber-cyan" />,
+        },
+        
+        { 
+            name: 'IBM Data Science Professional Certificate',
+            icon: <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/ibm.svg" alt="IBM" className="h-8 w-8" /> },
         { name: 'Introduction to Web Design and Development', icon: '🌐' },
         { name: 'JavaScript: Security Essentials', icon: '🔐' },
         { name: 'Creating a Responsive Web Design', icon: '📱' },
